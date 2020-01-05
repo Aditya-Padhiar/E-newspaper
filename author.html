@@ -1,0 +1,336 @@
+<html lang="en">
+    <head>
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    
+        <title>Lillian Xiao - The Front News</title>
+        <link rel="icon" href="./images/Logo-squircle.png">
+        <style>
+            .logo{
+                height: 2.6rem;
+                width: 2.6rem;
+                margin-top: 1rem;
+                vertical-align: text-bottom;
+            }
+            
+            .logo_font{
+                margin-left: 15px;
+                font-size: 2.1rem;
+                font-family: baskerville old face;
+            }
+
+            .image-container{
+                margin: 4% 5% 3% 5%;
+            }
+
+            .new-container{
+                margin: 5%;
+            }
+
+            .author-info{
+                margin: 0 5% 5% 5%;
+                height: 8%;
+            }
+
+            .author-image-size{
+                height: 48px;
+                width: 48px;
+                margin: -2px 18px 8px 12px;
+                
+            }
+
+            .text-info{
+                font-weight: lighter;
+                vertical-align: text-bottom;
+            }
+
+            .bookmark{
+                margin: 10px 20px 22px 10px;
+            }
+
+            .upper_margin{
+                margin-top: 3%;
+            }
+            .author-name{
+                font-weight: bolder;
+            }
+
+            .p_content{
+                letter-spacing: 0.07rem;
+                font-size: 1.3rem;
+                font-weight: 480;
+                margin-top: 5%;
+            }
+
+            .h4_content{
+                margin-top: 5%;
+                font-weight: 500;
+            }
+
+            .h5_content{
+                margin-top: 5%;
+                font-weight: 490;
+            }
+
+            .p_content_italic{
+                letter-spacing: 0.07rem;
+                font-size: 1.3rem;
+                font-weight: 480;
+                margin-top: 5%;
+                font-style: italic;
+            }
+
+            .p_content_italic_bold{
+                letter-spacing: 0.07rem;
+                font-size: 1.3rem;
+                font-weight: 680;
+                margin-top: 5%;
+                font-style: italic;
+            }
+
+            .more_content_image_container{
+                height: 180px;
+                margin-top: 10%;
+            }
+
+            .author-info_more_content{
+                height: 3%;
+                margin-bottom: 5%;
+                margin: 0 5% 5% 5%;
+            }
+
+            .author-image-size_more_content{
+                height: 42px;
+                width: 42px;
+                margin-right: 5%;
+            }
+
+            .more_content_cards_row{
+                display: inline;
+            }
+
+            .more_content_cards_col{
+                display: inline-block
+            }
+
+            .top-bottom_margin{
+                margin: 3% 0;
+            }
+
+            .bookmark_more_content{
+                margin-top: 7px;
+            }
+
+            .brand_footer{
+                margin: 0;
+                padding: 1.8% 0 2% 0;
+                font-family: baskerville old face;
+                font-size: 1.5vw;
+            }
+
+            .footer{
+                padding-top: 3%;
+            }
+        
+            .author_icon{
+                height: 10rem;
+                width: 10rem;
+                margin: 5% auto 3% auto;
+            }
+
+            .author-name{
+                margin: 0 auto;
+            }
+
+            .author_bio{
+                margin: 0 auto;
+                font-size: 1.5rem;
+                width: 60%;
+                line-height: 1.8rem;
+            }
+
+            .following{
+                margin: 2.5% auto 2% auto;
+            }
+
+            .bolder{
+                font-weight: bold;
+            }
+
+            button{
+                background-color: white;
+                border: solid;
+                color: black;
+                padding: 10px 25px;
+                text-align: center;
+                text-decoration: none;
+                font-weight: 625;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+                border-radius: 1rem;
+                border-width: 1.5px;
+                margin-bottom: 5%;
+            }
+
+            .article_card{
+                padding: 2%;
+                margin: 3% auto;
+            }
+
+            .cover_image{
+                width: 90%;
+                margin: 0 auto;
+                object-fit: cover;
+            }
+
+            .title_article_card{
+                width: 90%;
+                margin: 0 auto;
+                padding: 2.5%;
+            }
+
+            .subtitle_article_card{
+                width: 90%;
+                margin: 0 auto;
+                padding: 2%;
+            }
+
+            .cover_image_container{
+                margin: 8% auto 3% auto;
+            }
+
+            .search_icon{
+                padding: 4px;
+                margin-left: 5px;
+            }
+        </style>
+    
+      </head>
+<body>  
+    <nav class="nav-wrapper white">
+        <div class="container">
+            <a href="#" class="brand-logo black-text section scrollspy" id="top"><img src="./images/Logo-black.png" class="responsive-img logo" ><span class="hide-on-med-and-down logo_font">THE FRONT NEWS</span></a>
+            <a href="#" class="sidenav-trigger" data-target="mobile-links">
+                <i class="material-icons black-text">menu</i>
+            </a>
+            <ul id="nav-mobile" class="right">
+                <li><a href="sass.html" class="black-text hide-on-med-and-down">Sass</a></li>
+                <li><a href="badges.html" class="black-text hide-on-med-and-down">Components</a></li>
+                <li><a href="collapsible.html" class="black-text hide-on-med-and-down">JavaScript</a></li>
+                <li>
+                    <i class="material-icons black-text search_icon">search</i>
+                </li>
+            </ul>
+            <ul class="sidenav" id="mobile-links">
+                <li><a href="sass.html" class="black-text">Sass</a></li>
+                <li><a href="badges.html" class="black-text">Components</a></li>
+                <li><a href="collapsible.html" class="black-text">JavaScript</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <div class="center-align">
+            <img src="https://cdn-images-1.medium.com/fit/c/200/200/1*C9FbPwxNrpyQnr-tWxsiig.png" alt="" class="author_icon circle responsive-img materialboxed">
+            <h4 class="author_name">Lillian Xiao</h4>
+            <h5 class="author_bio grey-text text-darken-2">UX Design & Communications <br> @ VW 🚌 San Francisco </h5>
+            <h6 class="following"><span class="bolder">84</span> Following <span class="bolder">19.4K</span> Followers</h6>
+            <button type="button hoverable">Follow</button>
+        </div>
+        <hr>
+        <div class="article_card z-depth-1 hoverable">
+            <div class="author-info_more_content ">
+                <img src="https://cdn-images-1.medium.com/fit/c/200/200/1*C9FbPwxNrpyQnr-tWxsiig.png" class="circle author-image-size_more_content left" >
+                <p><span class="author-name">Lillian Xiao </span><a href="#" class="right"><i class="material-icons bookmark_more_content">bookmark_border</i></a><br> <span class="text-info truncate">Jun 12, 2018 · 4 min read</span></p>    
+            </div>
+
+            <div class="cover_image_container">
+                <img src="https://miro.medium.com/max/2494/1*pubDnJk3CVf4Yc5IEvavXA.png" alt="" class="materialboxed responsive-img cover_image">
+            </div>
+            <div>
+                <a href="#!">
+                  <h5 class="title_article_card black-text">UI/UX case study: a step-by-step guide to the process of designing a pet diet app</h5>
+                  <h6 class="subtitle_article_card grey-text text-darken-2">Your guide to creating a 🔥 design portfolio</h6>
+                </a>
+              </div>
+        </div>
+
+        <div class="article_card z-depth-1 hoverable">
+            <div class="author-info_more_content ">
+                <img src="https://cdn-images-1.medium.com/fit/c/200/200/1*C9FbPwxNrpyQnr-tWxsiig.png" class="circle author-image-size_more_content left" >
+                <p><span class="author-name">Lillian Xiao </span><a href="#" class="right"><i class="material-icons bookmark_more_content">bookmark_border</i></a><br> <span class="text-info truncate">Jun 12, 2018 · 4 min read</span></p>    
+            </div>
+
+            <div class="cover_image_container">
+                <img src="https://miro.medium.com/max/2494/1*pubDnJk3CVf4Yc5IEvavXA.png" alt="" class="materialboxed responsive-img cover_image">
+            </div>
+            <div>
+                <a href="#!">
+                  <h5 class="title_article_card black-text">UI/UX case study: a step-by-step guide to the process of designing a pet diet app</h5>
+                  <h6 class="subtitle_article_card grey-text text-darken-2">Your guide to creating a 🔥 design portfolio</h6>
+                </a>
+              </div>
+        </div>
+
+        <div class="article_card z-depth-1 hoverable">
+            <div class="author-info_more_content ">
+                <img src="https://cdn-images-1.medium.com/fit/c/200/200/1*C9FbPwxNrpyQnr-tWxsiig.png" class="circle author-image-size_more_content left" >
+                <p><span class="author-name">Lillian Xiao </span><a href="#" class="right"><i class="material-icons bookmark_more_content">bookmark_border</i></a><br> <span class="text-info truncate">Jun 12, 2018 · 4 min read</span></p>    
+            </div>
+
+            <div class="cover_image_container">
+                <img src="https://miro.medium.com/max/2494/1*pubDnJk3CVf4Yc5IEvavXA.png" alt="" class="materialboxed responsive-img cover_image">
+            </div>
+            <div>
+                <a href="#!">
+                  <h5 class="title_article_card black-text">UI/UX case study: a step-by-step guide to the process of designing a pet diet app</h5>
+                  <h6 class="subtitle_article_card grey-text text-darken-2">Your guide to creating a 🔥 design portfolio</h6>
+                </a>
+              </div>
+        </div>
+    </div>
+
+    <footer class="page-footer black lighten-2 footer">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m12 l4">
+                    <h6 class="white-text">Discover Medium</h6>
+                    <p class="grey-text ">Welcome to a place where words matter. On Medium, smart voices and original ideas take center stage - with no ads in sight.</p>
+                </div>
+                <div class="col s12 m12 l4">
+                    <h6 class="white-text">Make Medium yours</h6>
+                    <p class="grey-text ">Follow all the topics you care about, and we’ll deliver the best stories for you to your homepage and inbox.</p>
+                </div>
+                <div class="col s12 m12 l4">
+                    <h6 class="white-text">Become a member</h6>
+                    <p class="grey-text ">Get unlimited access to the best stories on Medium — and support writers while you’re at it. Just $5/month.</p>
+                </div>
+            </div>
+            <hr>
+            <a href="#" class="white-text"><p class="center-align brand_footer"><img src="./images/Logo-white.png" class="responsive-img logo" ><span class=" logo_font hide-on-small-only">THE FRONT NEWS</span></p></a>
+        </div>
+    </footer>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+      
+
+        $(document).ready(function(){
+            $('.sidenav').sidenav();
+            $('.scrollspy').scrollSpy();
+            $('.materialboxed').materialbox();
+        });
+    </script>
+</body>
+</html>
