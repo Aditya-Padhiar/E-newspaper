@@ -157,6 +157,11 @@
                 font-size: x-large;
                 margin-right: 1.5rem;
             }
+
+            .search_icon{
+                padding: 4px;
+                margin-left: 5px;
+            }
             /*
             nav{
                 position: fixed;
@@ -187,19 +192,22 @@
 <body>  
     <nav class="nav-wrapper white">
         <div class="container">
-            <a href="#" class="brand-logo black-text section scrollspy" id="top"><img src="./images/Logo-black.png" class="responsive-img logo" ><span class="hide-on-med-and-down logo_font">THE FRONT NEWS</span></a>
+            <a href="index.html" class="brand-logo black-text section scrollspy" id="top"><img src="./images/Logo-black.png" class="responsive-img logo" ><span class="hide-on-med-and-down logo_font">THE FRONT NEWS</span></a>
             <a href="#" class="sidenav-trigger" data-target="mobile-links">
                 <i class="material-icons black-text">menu</i>
             </a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="sass.html" class="black-text">Sass</a></li>
-                <li><a href="badges.html" class="black-text">Components</a></li>
-                <li><a href="collapsible.html" class="black-text">JavaScript</a></li>
+            <ul id="nav-mobile" class="right ">
+                <li><a href="sass.html" class="black-text hide-on-med-and-down">Trending</a></li>
+                <li><a href="badges.html" class="black-text hide-on-med-and-down">Your interest</a></li>
+                <li><a href="collapsible.html" class="black-text hide-on-med-and-down">Bookmarked</a></li>
+                <li>
+                    <i class="material-icons black-text search_icon">search</i>
+                </li>
             </ul>
             <ul class="sidenav" id="mobile-links">
-                <li><a href="sass.html" class="black-text">Sass</a></li>
-                <li><a href="badges.html" class="black-text">Components</a></li>
-                <li><a href="collapsible.html" class="black-text">JavaScript</a></li>
+                <li><a href="sass.html" class="black-text">Trending</a></li>
+                <li><a href="badges.html" class="black-text">Your interest</a></li>
+                <li><a href="collapsible.html" class="black-text">Bookmarked</a></li>
             </ul>
         </div>
     </nav>
@@ -217,8 +225,8 @@
             <img src="https://miro.medium.com/max/5120/0*IhR38AaHuLKFo3n5" class="responsive-img materialboxed">
         </div>
         <div class="author-info">
-            <img src="https://cdn-images-1.medium.com/fit/c/125/125/2*nE5lzPvkU7KroqOvpc3LVQ.png" class="circle author-image-size left" >
-            <p><span class="author-name">Rubens Cantuni</span><a href="#" class="right"><i class="material-icons bookmark">bookmark_border</i></a><br> <span class="text-info truncate">Jun 12, 2018 · 4 min read</span></p>    
+            <a href="author2.html"><img src="https://cdn-images-1.medium.com/fit/c/125/125/2*nE5lzPvkU7KroqOvpc3LVQ.png" class="circle author-image-size left" ></a>
+            <p><a href="author2.html"><span class="author-name black-text">Rubens Cantuni</span></a><a href="#" class="right"><i class="material-icons bookmark">bookmark_border</i></a><br> <span class="text-info truncate">Jun 12, 2018 · 4 min read</span></p>    
             <hr class="upper_margin">
         </div>
 
