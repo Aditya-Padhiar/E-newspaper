@@ -1,0 +1,403 @@
+<html lang="en">
+    <head>
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    
+        <title>Sketch & InVision workflow for developers - The Front News</title>
+        <link rel="icon" href="./images/Logo-white.png">
+        <style>
+            .logo{
+                height: 2.6rem;
+                width: 2.6rem;
+                margin-top: 1rem;
+                vertical-align: text-bottom;
+            }
+            
+            .logo_font{
+                margin-left: 15px;
+                font-size: 2.1rem;
+                font-family: baskerville old face;
+            }
+
+            .image-container{
+                margin: 4% 5% 3% 5%;
+            }
+
+            .new-container{
+                margin: 5%;
+            }
+
+            .author-info{
+                margin: 0 5% 5% 5%;
+                height: 8%;
+            }
+
+            .author-image-size{
+                height: 48px;
+                width: 48px;
+                margin: -2px 18px 8px 12px;
+                
+            }
+
+            .text-info{
+                font-weight: lighter;
+                vertical-align: text-bottom;
+            }
+
+            .bookmark{
+                margin: 10px 20px 22px 10px;
+            }
+
+            .upper_margin{
+                margin-top: 3%;
+            }
+            .author-name{
+                font-weight: bolder;
+            }
+
+            .p_content{
+                letter-spacing: 0.07rem;
+                font-size: 1.3rem;
+                font-weight: 480;
+                margin-top: 5%;
+            }
+
+            .h4_content{
+                margin-top: 5%;
+                font-weight: 500;
+            }
+
+            .h5_content{
+                margin-top: 5%;
+                font-weight: 490;
+            }
+
+            .p_content_italic{
+                letter-spacing: 0.07rem;
+                font-size: 1.3rem;
+                font-weight: 480;
+                margin-top: 5%;
+                font-style: italic;
+            }
+
+            .p_content_italic_bold{
+                letter-spacing: 0.07rem;
+                font-size: 1.3rem;
+                font-weight: 680;
+                margin-top: 5%;
+                font-style: italic;
+            }
+
+            .p_content_bold{
+                letter-spacing: 0.07rem;
+                font-size: 1.3rem;
+                font-weight: bold;
+                margin-top: 5%;
+            }
+
+            .more_content_image_container{
+                height: 180px;
+                margin-top: 10%;
+            }
+
+            .author-info_more_content{
+                height: 3%;
+                margin-bottom: 5%;
+                margin: 0 5% 5% 5%;
+            }
+
+            .author-image-size_more_content{
+                height: 42px;
+                width: 42px;
+                margin-right: 5%;
+            }
+
+            .more_content_cards_row{
+                display: inline;
+            }
+
+            .more_content_cards_col{
+                display: inline-block
+            }
+
+            .top-bottom_margin{
+                margin: 3% 0;
+            }
+
+            .bookmark_more_content{
+                margin-top: 7px;
+            }
+
+            .brand_footer{
+                margin: 0;
+                padding: 1.8% 0 2% 0;
+                font-family: baskerville old face;
+                font-size: 1.5vw;
+            }
+
+            .footer{
+                padding-top: 3%;
+            }
+
+            .tripledot{
+                margin: 3.5% auto ;
+                letter-spacing: 2rem;
+                font-weight: 1000;
+                font-size: large;
+            }
+            
+            .bullet{
+                font-weight: 900;
+                font-size: x-large;
+                margin-right: 1.5rem;
+            }
+
+            .search_icon{
+                padding: 4px;
+                margin-left: 5px;
+            }
+            /*
+            nav{
+                position: fixed;
+                margin-top: -130px;
+                transition: all 0.5s;
+            } 
+
+            nav.scrollUp {
+                transform: translateY(-68px);
+            }
+
+            .sidenav{
+                position:fixed;
+                margin-top: -130px;
+                transition: all 0.5s;
+            }
+
+            .sidenav.scrollup {
+                transform: translateY(-68px);
+            }
+
+            .start{
+                margin-top: 130px;
+            }*/
+        </style>
+    
+      </head>
+<body>  
+    <nav class="nav-wrapper white">
+        <div class="container">
+            <a href="index.html" class="brand-logo black-text section scrollspy" id="top"><img src="./images/Logo-black.png" class="responsive-img logo" ><span class="hide-on-med-and-down logo_font">THE FRONT NEWS</span></a>
+            <a href="#" class="sidenav-trigger" data-target="mobile-links">
+                <i class="material-icons black-text">menu</i>
+            </a>
+            <ul id="nav-mobile" class="right ">
+                <li><a href="trending.html" class="black-text hide-on-med-and-down">Trending</a></li>
+                <li><a href="yourInterest.html" class="black-text hide-on-med-and-down">Your interest</a></li>
+                <li><a href="bookmarked.html" class="black-text hide-on-med-and-down">Bookmarked</a></li>
+                <li>
+                  <i class="material-icons black-text search_icon">search</i>
+              </li>
+            </ul>
+            <ul class="sidenav" id="mobile-links">
+                <li><a href="trending.html" class="black-text">Trending</a></li>
+                <li><a href="yourInterest.html" class="black-text">Your interest</a></li>
+                <li><a href="bookmarked.html" class="black-text">Bookmarked</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+
+    <div class="container">
+        
+        <div class="fixed-action-btn">
+            <a href="#top" class="btn-floating black white-text"><i class="material-icons">arrow_upward</i></a>
+        </div>
+        
+        <h3 class="center">Sketch & InVision workflow for developers</h3>
+        <h5 class="subtitle center-align grey-text darken-2"></h5>
+        <div class="image-container">
+            <img src="https://miro.medium.com/max/2813/1*RDfafLUAUSPp8ilXnchkTA.jpeg" class="responsive-img materialboxed">
+        </div>
+        <div class="author-info">
+            <a href="author3.html"><img src="https://miro.medium.com/fit/c/144/144/1*qWFl-I5E2GctwpjAvnoQaw.jpeg" class="circle author-image-size left" ></a>
+            <p><a href="author3.html"><span class="author-name black-text">Lan Belic</span></a><a href="#" class="right"><i class="material-icons bookmark">bookmark_border</i></a><br> <span class="text-info truncate">Jun 12, 2018 · 4 min read</span></p>    
+            <hr class="upper_margin">
+        </div>
+
+        <div class="new-container">
+            
+            <p class="p_content">I’ve been using Sketch for all aspects of design work for quite some time now but when creating an iOS and Android project within the same file, I’ve had problems with exporting assets.</p>
+            <p class="p_content">At MOBGEN Accenture Interactive, we’ve recently been using InVision suite for the design handoff to developers and in order to keep projects clean we use a single project featuring both iOS and Android designs.</p>
+            <p class="p_content">When it comes to the measurements, InVision works pretty well for us; everybody can switch projects and measurement types easily. However when it comes to exported assets we’ve stumbled upon few problems. 😫</p>
+            <p class="p_content">In order to make assets exportable and downloadable in InVision, designers have to mark each of those elements as exportable or use slices, defining the size and type to export at.</p>
+            <p class="p_content">By doing a bit of research on sizes needed for iOS and Android, we can see there are some shared sizes.</p>
+            <div class="image-container">
+                <div class="row">
+                    <div class="col s12 m6 l6">
+                        <img src="https://miro.medium.com/max/1422/1*v__54-2kEADNXwYzujX-og.png" class="responsive-img materialboxed ">
+                    </div>
+                    <div class="col s12 m6 l6">
+                        <img src="https://miro.medium.com/max/1422/1*_EkpVqpc9aj2bSMlPj2uxg.png" class="responsive-img materialboxed">
+                    </div>
+                </div>
+            </div>
+            <h4>💎Setup Sketch file</h4>
+            <p class="p_content">Start by navigating to Sketch ‘Preferences’ and create a new preset for export options. I’ve named mine ‘All assets’ — this includes all export options for Android and iOS combined (we’ll sort and rename assets later with a script).</p>
+            <div class="image-container">
+                <img src="https://miro.medium.com/max/1422/1*lj8xL07n5-MOER3IT2tB5g.png" class="responsive-img materialboxed">
+            </div>
+            <p class="p_content">Before uploading any screens to InVision, make sure you’ve marked all assets you need as exportable (or used slices). Same goes for if you’re not using InVision, mark all assets needed as exportable, then click ‘Export all’ on the far right of the toolbar.</p>
+            <div class="image-container">
+                <img src="https://miro.medium.com/max/3735/1*Dd3z91gD7-NrReSMuBNq1w.png" class="responsive-img materialboxed">
+            </div>
+            <h4>Invision</h4>
+            <p class="p_content">Navigate to your project within InVision. Click on one of the screens and enter ‘Inspect mode’ (you can also use ‘i’ on keyboard). Now select the ‘Assets’ tab and ‘Download all’ assets.</p>
+            <div class="image-container">
+                <div class="row">
+                    <div class="col s12 m6 l6">
+                        <img src="https://miro.medium.com/max/1809/1*pGiuHDQ_xWWNkjBMHIpypw.png" class="responsive-img materialboxed" data-caption="Invision Project">
+                    </div>
+                    <div class="col s12 m6 l6">
+                        <img src="https://miro.medium.com/max/1809/1*F5WaCeVo_wpXQwGT1wcLBw.png" class="responsive-img materialboxed" data-caption="Invision Project">
+                    </div>
+                </div>
+            </div>
+            <p class="p_content">After downloading, move all assets to your desired folder — I suggest creating a temporary folder on desktop while you go through the next steps of ‘magic’ and then copying and pasting the assets into your project.</p>
+            <div class="image-container">
+                <img src="https://miro.medium.com/max/2291/1*JE2ug8TjWU7s3xLk_HOlLA.png" class="responsive-img materialboxed" data-caption="Your are gonna end up with a folder similar to this">
+            </div>
+            <h4>🎩✨Where the magic happens</h4>
+            <p class="p_content">It’s going to require a bit of #hackerSkills 👨‍💻using the shell command — but don’t worry — it’s mostly just copy and paste 😉.</p>
+            <p class="p_content">I’ve written two shell command scripts that’ll go through your assets folder and rearrange all the assets into a proper format.</p>
+            <p class="p_content">And it goes a little something like this…</p>
+            <p class="p_content">Open your Terminal and copy and paste the code you need. Before pasting, change the ‘yourDestination’ to your actual folder destination (for example to /Desktop/temp).</p>
+            <h5>For Android assets</h5>
+            <p class="p_content">After running the script you should end up with something that looks like this. All asset files will be renamed and put in the according folder.</p>
+             <div class="image-container">
+                <img src="https://miro.medium.com/max/1818/1*2LMyDB0ZgOvU8Vysc71vTg.png" class="responsive-img materialboxed">
+             </div>
+             <h5>For IOS assests</h5>
+             <p class="p_content">After running script you should end up with something like this. The script will remove files for sizes x4, x1.5, x0.75 and rename x1.</p>
+             <div class="image-container">
+                 <img src="https://miro.medium.com/max/1818/1*mQZfPHgJ2KwSjky852yU5g.png" alt="" class="responsive-img materialboxed">
+             </div>
+             <h4>🎁Bonus</h4>
+             <p class="p_content">If you’re not already using a <a href="https://github.com/sketch-hq/sketch-image-compressor" target="blank">Sketch plugin</a> to compress all your images, I suggest trying <a href="https://imageoptim.com/mac" target="blank">ImageOptim</a> ImageOptim or <a href="https://tinypng.com/" target="blank">TinyPNG.</a></p>
+             <h4>🏆Fast & easy</h4>
+             <p class="p_content">We’ve found this workflow to be very useful. We can create all assets for iOS and Android in one single project — meaning developers end up with optimised and organised assets.</p>
+             <p class="tripledot center-align"> . . .</p>
+             <p class="p_content">I’m Lan Belic, a Designer living in Amsterdam. I created this not only to make our own lives at <a href="https://www.mobgen.com/" target="blank"> MOBGEN</a> easier, but to also hopefully do the same for you. Got any thoughts or maybe a feedback? ➡️ Give me a shout on Twitter!</p>
+        </div>
+    </div>
+
+
+<div class="more_content grey lighten-5">
+    <div class="container">
+        <h5 class="h5_content"><br>More From Medium</h5><hr class="top-bottom_margin">
+        <div class="row more_content_cards_row">
+
+            <div class="col s12 m12 l4 more_content_cards_col hoverable">
+                <div class="row">
+                    <div class="col s12 m8 l12 offset-m2">
+                        <img src="https://miro.medium.com/max/1440/0*2v7sloJfHM1LNovW.jpg" alt="" class="more_content_image_container responsive-img">
+                    </div>
+
+                    <div class="col s12 m12 l12 info">
+                        <h5 class="h5_more_content center-align">Future of marketing lies in chatbots</h5>
+                    </div>
+                    <div class="col s12 m12 l12">
+                        <div class="author-info_more_content">
+                            <img src="https://cdn-images-1.medium.com/fit/c/200/200/1*qWFl-I5E2GctwpjAvnoQaw.jpeg" class="circle author-image-size_more_content left" >
+                            <p><span class="author-name">Lan Belic </span><a href="#" class="right"><i class="material-icons bookmark_more_content">bookmark_border</i></a><br> <span class="text-info truncate">Jun 12, 2018 · 4 min read</span></p>    
+                        </div>
+                    </div>
+                </div> 
+                <hr>
+            </div>
+
+
+            <div class="col s12 m12 l4 more_content_cards_col hoverable">
+                <div class="row">
+                    <div class="col s12 m8 l12 offset-m2">
+                        <img src="https://miro.medium.com/max/2273/1*gxVxa3_QYugBy-x7zykhMQ.png" alt="" class="more_content_image_container responsive-img">
+                    </div>
+
+                    <div class="col s12 m12 l12 info">
+                        <h5 class="h5_more_content center-align">How can facebook better design its political ads for 2020?</h5>
+                    </div>
+                    <div class="col s12 m12 l12">
+                        <div class="author-info_more_content">
+                            <img src="https://cdn-images-1.medium.com/fit/c/200/200/1*qWFl-I5E2GctwpjAvnoQaw.jpeg" class="circle author-image-size_more_content left" >
+                            <p><span class="author-name">Lan Belic </span><a href="#" class="right"><i class="material-icons bookmark_more_content">bookmark_border</i></a><br> <span class="text-info truncate">Jun 12, 2018 · 4 min read</span></p>    
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </div>
+
+
+            <div class="col s12 m12 l4 more_content_cards_col hoverable">
+                <div class="row">
+                    <div class="col s12 m8 l12 offset-m2">
+                        <img src="https://miro.medium.com/max/1350/1*y4dWprGLwfpzXpY6TI8qPg.jpeg" alt="" class="more_content_image_container responsive-img">
+                    </div>
+
+                    <div class="col s12 m12 l12">
+                        <h5 class="h5_more_content center-align">Defend the open internet</h5>
+                    </div>
+                    <div class="col s12 m12 l12">
+                        <div class="author-info_more_content">
+                            <img src="https://cdn-images-1.medium.com/fit/c/200/200/1*qWFl-I5E2GctwpjAvnoQaw.jpeg" class="circle author-image-size_more_content left" >
+                            <p><span class="author-name">Lan Belic </span><a href="#" class="right"><i class="material-icons bookmark_more_content">bookmark_border</i></a><br> <span class="text-info truncate">Jun 12, 2018 · 4 min read</span></p>    
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+    <footer class="page-footer black lighten-2 footer">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m12 l4">
+                    <h6 class="white-text">Discover Medium</h6>
+                    <p class="grey-text ">Welcome to a place where words matter. On Medium, smart voices and original ideas take center stage - with no ads in sight.</p>
+                </div>
+                <div class="col s12 m12 l4">
+                    <h6 class="white-text">Make Medium yours</h6>
+                    <p class="grey-text ">Follow all the topics you care about, and we’ll deliver the best stories for you to your homepage and inbox.</p>
+                </div>
+                <div class="col s12 m12 l4">
+                    <h6 class="white-text">Become a member</h6>
+                    <p class="grey-text ">Get unlimited access to the best stories on Medium — and support writers while you’re at it. Just $5/month.</p>
+                </div>
+            </div>
+            <hr>
+            <a href="index.html" class="white-text"><p class="center-align brand_footer"><img src="./images/Logo-white.png" class="responsive-img logo" ><span class=" logo_font hide-on-small-only">THE FRONT NEWS</span></p></a>
+        </div>
+    </footer>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+      
+
+        $(document).ready(function(){
+            $('.sidenav').sidenav();
+            $('.scrollspy').scrollSpy();
+            $('.materialboxed').materialbox();
+        });
+    </script>
+</body>
+</html>
