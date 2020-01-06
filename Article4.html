@@ -1,0 +1,447 @@
+<html lang="en">
+    <head>
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    
+        <title>Cosmic— UI/UX Case Study - The Front News</title>
+        <link rel="icon" href="./images/Logo-white.png">
+        <style>
+            .logo{
+                height: 2.6rem;
+                width: 2.6rem;
+                margin-top: 1rem;
+                vertical-align: text-bottom;
+            }
+            
+            .logo_font{
+                margin-left: 15px;
+                font-size: 2.1rem;
+                font-family: baskerville old face;
+            }
+
+            .image-container{
+                margin: 4% 5% 3% 5%;
+            }
+
+            .new-container{
+                margin: 5%;
+            }
+
+            .author-info{
+                margin: 0 5% 5% 5%;
+                height: 8%;
+            }
+
+            .author-image-size{
+                height: 48px;
+                width: 48px;
+                margin: -2px 18px 8px 12px;
+                
+            }
+
+            .text-info{
+                font-weight: lighter;
+                vertical-align: text-bottom;
+            }
+
+            .bookmark{
+                margin: 10px 20px 22px 10px;
+            }
+
+            .upper_margin{
+                margin-top: 3%;
+            }
+            .author-name{
+                font-weight: bolder;
+            }
+
+            .p_content{
+                letter-spacing: 0.07rem;
+                font-size: 1.3rem;
+                font-weight: 480;
+                margin-top: 5%;
+            }
+
+            .h4_content{
+                margin-top: 5%;
+                font-weight: 500;
+            }
+
+            .h5_content{
+                margin-top: 5%;
+                font-weight: 490;
+            }
+
+            .p_content_italic{
+                letter-spacing: 0.07rem;
+                font-size: 1.3rem;
+                font-weight: 480;
+                margin-top: 5%;
+                font-style: italic;
+            }
+
+            .p_content_italic_bold{
+                letter-spacing: 0.07rem;
+                font-size: 1.3rem;
+                font-weight: 680;
+                margin-top: 5%;
+                font-style: italic;
+            }
+
+            .p_content_bold{
+                letter-spacing: 0.07rem;
+                font-size: 1.3rem;
+                font-weight: bold;
+                margin-top: 5%;
+            }
+
+            .more_content_image_container{
+                height: 180px;
+                margin-top: 10%;
+            }
+
+            .author-info_more_content{
+                height: 3%;
+                margin-bottom: 5%;
+                margin: 0 5% 5% 5%;
+            }
+
+            .author-image-size_more_content{
+                height: 42px;
+                width: 42px;
+                margin-right: 5%;
+            }
+
+            .more_content_cards_row{
+                display: inline;
+            }
+
+            .more_content_cards_col{
+                display: inline-block
+            }
+
+            .top-bottom_margin{
+                margin: 3% 0;
+            }
+
+            .bookmark_more_content{
+                margin-top: 7px;
+            }
+
+            .brand_footer{
+                margin: 0;
+                padding: 1.8% 0 2% 0;
+                font-family: baskerville old face;
+                font-size: 1.5vw;
+            }
+
+            .footer{
+                padding-top: 3%;
+            }
+
+            .tripledot{
+                margin: 3.5% auto ;
+                letter-spacing: 2rem;
+                font-weight: 1000;
+                font-size: large;
+            }
+            
+            .bullet{
+                font-weight: 900;
+                font-size: x-large;
+                margin-right: 1.5rem;
+            }
+
+            .search_icon{
+                padding: 4px;
+                margin-left: 5px;
+            }
+            /*
+            nav{
+                position: fixed;
+                margin-top: -130px;
+                transition: all 0.5s;
+            } 
+
+            nav.scrollUp {
+                transform: translateY(-68px);
+            }
+
+            .sidenav{
+                position:fixed;
+                margin-top: -130px;
+                transition: all 0.5s;
+            }
+
+            .sidenav.scrollup {
+                transform: translateY(-68px);
+            }
+
+            .start{
+                margin-top: 130px;
+            }*/
+        </style>
+    
+      </head>
+<body>  
+    <nav class="nav-wrapper white">
+        <div class="container">
+            <a href="index.html" class="brand-logo black-text section scrollspy" id="top"><img src="./images/Logo-black.png" class="responsive-img logo" ><span class="hide-on-med-and-down logo_font">THE FRONT NEWS</span></a>
+            <a href="#" class="sidenav-trigger" data-target="mobile-links">
+                <i class="material-icons black-text">menu</i>
+            </a>
+            <ul id="nav-mobile" class="right ">
+                <li><a href="trending.html" class="black-text hide-on-med-and-down">Trending</a></li>
+                <li><a href="yourInterest.html" class="black-text hide-on-med-and-down">Your interest</a></li>
+                <li><a href="bookmarked.html" class="black-text hide-on-med-and-down">Bookmarked</a></li>
+                <li>
+                  <i class="material-icons black-text search_icon">search</i>
+              </li>
+            </ul>
+            <ul class="sidenav" id="mobile-links">
+                <li><a href="trending.html" class="black-text">Trending</a></li>
+                <li><a href="yourInterest.html" class="black-text">Your interest</a></li>
+                <li><a href="bookmarked.html" class="black-text">Bookmarked</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+
+    <div class="container">
+        
+        <div class="fixed-action-btn">
+            <a href="#top" class="btn-floating black white-text"><i class="material-icons">arrow_upward</i></a>
+        </div>
+        
+        <h3 class="center">Cosmic — UI/UX Case Study</h3>
+        <h5 class="subtitle center-align "></h5>
+        <div class="image-container">
+            <img src="https://miro.medium.com/max/2074/1*sNzLrlbZtOsGc8O55ddtNQ.png" class="responsive-img materialboxed">
+        </div>
+        <div class="author-info">
+            <a href="author3.html"><img src="https://miro.medium.com/fit/c/144/144/1*qWFl-I5E2GctwpjAvnoQaw.jpeg" class="circle author-image-size left" ></a>
+            <p><a href="author3.html"><span class="author-name black-text">Lan Belic</span></a><a href="#" class="right"><i class="material-icons bookmark">bookmark_border</i></a><br> <span class="text-info truncate">Jun 12, 2018 · 4 min read</span></p>    
+            <hr class="upper_margin">
+        </div>
+
+        <div class="new-container">
+            <h4 class="subtitle center-align">Overview</h4>
+            <div class="image-container">
+                <img src="https://miro.medium.com/max/1298/1*1SvTFRGhFhcxc6voLoe9Lw.png" class="responsive-img materialboxed" >
+            </div>
+            <p class="p_content">The universe is everlasting. It is in constant movement. Nothing stays still, ever. Cosmic represents the universe in its entirety and the movements that occur by the milliseconds.</p>
+            <p class="p_content">Movement and mobility is lifecycle. Cosmic express life, movement, going forward, new explorations.</p>
+            <p class="p_content">Cosmic is a small team based in Colombia and strives to make mobility better and more accessible.</p>
+            <h4 class="subtitle center-align ">Mobility Industry 🚲 🛵 🚗 🚚 🚌 🚎 🛴</h4>
+            <div class="image-container">
+                <img src="https://miro.medium.com/max/2318/1*tBDtnp5Zgz7sGWxRSs49iw.png" class="responsive-img materialboxed"  data-caption="BSC Research">
+            </div>
+            <p class="p_content">Car sharing, bike sharing, shuttle, carpool are some of the services that are enabling the on-demand ride-sharing sector to thrive. The idea of more people using one vehicle not only help to curb the cost of traveling (fuel costs, tolls, maintenance charges) but also reduces the stress of driving.</p>
+
+            <p class="p_content">Ride-sharing is a sustainable way to travel. Sharing journeys reduces air pollution, carbon emissions, traffic congestion, and also manages the need for parking spaces. For all these positive impacts, even govt’ authorities encourage the concept of ride-sharing.</p>
+            <div class="image-container">
+                <img src="https://miro.medium.com/max/1563/1*Fvwjtai5SePkUFHFtOnbGA.png" class="responsive-img materialboxed" >
+            </div>
+            <h4 class="subtitle center-align ">Problems</h4>
+            <p class="p_content"><span class="bullet">.</span>Affordable on-demand vehicle access.</p>
+            <p class="p_content"><span class="bullet">.</span>Many people want to use different mobility alternatives.</p>
+            <p class="p_content"><span class="bullet">.</span>Many people have slow vehicles.</p>
+            <p class="p_content"><span class="bullet">.</span>Vehicles that can be accessed anywhere.</p>
+            <p class="p_content"><span class="bullet">.</span>Short-term access to a vehicle.</p>
+            <p class="p_content"><span class="bullet">.</span>Dockless scooters have an extremely short lifespan.</p>
+            <p class="p_content"><span class="bullet">.</span>Casual riders rarely wear helmets.</p>
+            <p class="p_content"><span class="bullet">.</span>Vehicles and riders rarely have insurance.</p>
+            <h4 class="subtitle center-align ">Who solved some of our problems</h4>
+            <div class="image-container">
+                <img src="https://miro.medium.com/max/1348/1*d_BBs8LVJ1YtbpHRr4bxPw.png" class="responsive-img materialboxed" >
+            </div>
+            <p class="p_content">To gain a better understanding of the market, I did an analysis of our competitors — Scoot, Movo and Grin Scooters. Our key findings were:</p>
+            <p class="p_content"><span class="bullet">.</span>None have a feature which enables users to book and get a vehicle</p>
+            <p class="p_content"><span class="bullet">.</span>Information on accessibility is not always accurate</p>
+            <p class="p_content"><span class="bullet">.</span>None focus much on accessibility</p>
+            <p class="p_content"><span class="bullet">.</span>Most of them need too much information before using an app</p>
+            <h4 class="subtitle center-align ">User Research</h4>
+            <h5>Who are riders?</h5>
+            <p class="p_content">— University students / Giggers / Young Professionals / Tourists</p>
+            <h5>Who are Owners and Partners?</h5>
+            <p class="p_content">— Young professionals / Passive investors / Fleet operators / Airbnb Hosts / Uber & Cabify fleet owners / Logistics operators</p>
+            <h5>Why do they ride?</h5>
+            <div class="image-container">
+                <img src="https://miro.medium.com/max/1234/1*Q4a6DlN7LA7JHY531Duzeg.png" class="responsive-img materialboxed" >
+            </div>
+            <h5>User Persona</h5>
+            <div class="image-container">
+                <img src="https://miro.medium.com/max/1234/1*KdMm4Nhy72YGVc9ocv4Xjg.png" class="responsive-img materialboxed" data-caption="Persona 1" >
+            </div>
+            <div class="image-container">
+                <img src="https://miro.medium.com/max/1234/1*3653mU3twKysIQhixU9kHQ.png" class="responsive-img materialboxed" data-caption="Persona 2" >
+            </div>
+            <div class="image-container">
+                <img src="https://miro.medium.com/max/1234/1*3L0AD8ud8Bns5s5ttH6Wnw.png" class="responsive-img materialboxed" data-caption="Persona 3" >
+            </div>
+            <h4 class="subtitle center-align">User Journey</h4>
+            <div class="image-container">
+                <img src="https://miro.medium.com/max/5040/1*d-DpNWx9glcsp-eOpDrEag.png" class="responsive-img materialboxed" data-caption="Everyone hates this situation." >
+            </div>
+            <h4 class="subtitle center-align ">User Flows</h4>
+            <div class="image-container">
+                <img src="https://miro.medium.com/max/2543/1*8ZRhJvX98oJCZPKvUOYs-Q.png" class="responsive-img materialboxed" >
+            </div>
+            <div class="image-container">
+                <img src="https://miro.medium.com/max/2183/1*2GjwD7tCj9lL25-oDN7NRQ.png" class="responsive-img materialboxed" >
+            </div>
+            <h4 class="subtitle center-align ">Testing</h4>
+            <p class="p_content">Created tasks and scenarios that we tested.</p>
+            <p class="p_content"><span class="bullet">.</span>Find a way to rent the nearest e-scooter and unlock it.</p>
+            <p class="p_content"><span class="bullet">.</span>Let’s add your payment method to use the e-scooter.</p>
+            <p class="p_content"><span class="bullet">.</span>How was a ride? now let’s end your ride.</p>
+            <p class="p_content"><span class="bullet">.</span>Now you want to rent an E-bike and get delivered it where you want.</p>
+            <p class="p_content"><span class="bullet">.</span>You get promo code. let’s use it for your rides.</p>
+            <h4 class="subtitle center-align ">App</h4>
+            <div class="image-container">
+                <img src="https://miro.medium.com/max/6658/1*5rD-F4W9L6BWHskXps6C8A.png" class="responsive-img materialboxed"  >
+            </div>
+            <div class="image-container">
+                <img src="https://miro.medium.com/max/2278/1*o504ihiLxi9emevPbXJEPQ.png" class="responsive-img materialboxed"  >
+            </div>
+            <div class="image-container">
+                <img src="https://miro.medium.com/max/2380/1*l0css9kGPAqLQ68RT6TvZw.png" class="responsive-img materialboxed"  >
+            </div>
+            <h4 class="subtitle center-align ">What I’ve created — High-Fidelity Designs</h4>
+            <div class="image-container">
+                <img src="https://miro.medium.com/max/1490/1*cDLdeW0rzWqev83pFJscYw.png" class="responsive-img materialboxed" data-caption="Login" >
+            </div>
+
+            <p class="p_content"><span class="p_content_bold">Login</span> — were boring and long process in the previous app. now users can start with a phone number or magic link, and there is no need to fill birthdate, gender, etc…</p>
+            <div class="image-container">
+                <img src="https://miro.medium.com/max/3700/1*hCf4i6kQk5isQaQsBx0TYA.png" class="responsive-img materialboxed" data-caption="Scan & Use a vehicle" >
+            </div>
+            <p class="p_content"><span class="p_content_bold">Get Vehicle/Services</span> — Users can unlock vehicles or get delivered. choose ride mode, pay with balance or card, use promo code, rate ride.</p>
+            <div class="image-container">
+                <img src="https://miro.medium.com/max/1913/1*0KUmvgT2xaChFVElPSq-tg.png" class="responsive-img materialboxed" data-caption="Coupons" >
+            </div>
+            <p class="p_content"><span class="p_content_bold">Coupons —</span> Users redeem coupons and get discounts.</p>
+            <div class="image-container">
+                <img src="https://miro.medium.com/max/2444/1*NL4TOzrPkyLlnlEZn9KZqg.png" class="responsive-img materialboxed" data-caption="Wallet — Promo codes" >
+            </div>
+            <p class="p_content"><span class="p_content_bold">Wallet —</span> Users can pay with a wallet or card, redeem coupons.</p>
+            <h4 class="subtitle center-align ">Old / New</h4>
+            <div class="image-container">
+                <img src="https://miro.medium.com/max/1614/1*gimV9NyMwVlfifNGdEiOZw.png" class="responsive-img materialboxed" data-caption="Before-After" >
+            </div>
+            
+            <p class="p_content">Finally, we got refined UX and clean UI. I redesigned logic of Login/Signup , service rent flow, payment, and voucher. I also created new UI elements for the app.</p>
+        </div>
+    </div>
+
+
+<div class="more_content grey lighten-5">
+    <div class="container">
+        <h5 class="h5_content"><br>More From Medium</h5><hr class="top-bottom_margin">
+        <div class="row more_content_cards_row">
+
+            <div class="col s12 m12 l4 more_content_cards_col hoverable">
+                <div class="row">
+                    <div class="col s12 m8 l12 offset-m2">
+                        <img src="https://miro.medium.com/max/1440/0*2v7sloJfHM1LNovW.jpg" alt="" class="more_content_image_container responsive-img">
+                    </div>
+
+                    <div class="col s12 m12 l12 info">
+                        <h5 class="h5_more_content center-align">Future of marketing lies in chatbots</h5>
+                    </div>
+                    <div class="col s12 m12 l12">
+                        <div class="author-info_more_content">
+                            <img src="https://cdn-images-1.medium.com/fit/c/200/200/1*qWFl-I5E2GctwpjAvnoQaw.jpeg" class="circle author-image-size_more_content left" >
+                            <p><span class="author-name">Lan Belic </span><a href="#" class="right"><i class="material-icons bookmark_more_content">bookmark_border</i></a><br> <span class="text-info truncate">Jun 12, 2018 · 4 min read</span></p>    
+                        </div>
+                    </div>
+                </div> 
+                <hr>
+            </div>
+
+
+            <div class="col s12 m12 l4 more_content_cards_col hoverable">
+                <div class="row">
+                    <div class="col s12 m8 l12 offset-m2">
+                        <img src="https://miro.medium.com/max/2273/1*gxVxa3_QYugBy-x7zykhMQ.png" alt="" class="more_content_image_container responsive-img">
+                    </div>
+
+                    <div class="col s12 m12 l12 info">
+                        <h5 class="h5_more_content center-align">How can facebook better design its political ads for 2020?</h5>
+                    </div>
+                    <div class="col s12 m12 l12">
+                        <div class="author-info_more_content">
+                            <img src="https://cdn-images-1.medium.com/fit/c/200/200/1*qWFl-I5E2GctwpjAvnoQaw.jpeg" class="circle author-image-size_more_content left" >
+                            <p><span class="author-name">Lan Belic </span><a href="#" class="right"><i class="material-icons bookmark_more_content">bookmark_border</i></a><br> <span class="text-info truncate">Jun 12, 2018 · 4 min read</span></p>    
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </div>
+
+
+            <div class="col s12 m12 l4 more_content_cards_col hoverable">
+                <div class="row">
+                    <div class="col s12 m8 l12 offset-m2">
+                        <img src="https://miro.medium.com/max/1350/1*y4dWprGLwfpzXpY6TI8qPg.jpeg" alt="" class="more_content_image_container responsive-img">
+                    </div>
+
+                    <div class="col s12 m12 l12">
+                        <h5 class="h5_more_content center-align">Defend the open internet</h5>
+                    </div>
+                    <div class="col s12 m12 l12">
+                        <div class="author-info_more_content">
+                            <img src="https://cdn-images-1.medium.com/fit/c/200/200/1*qWFl-I5E2GctwpjAvnoQaw.jpeg" class="circle author-image-size_more_content left" >
+                            <p><span class="author-name">Lan Belic </span><a href="#" class="right"><i class="material-icons bookmark_more_content">bookmark_border</i></a><br> <span class="text-info truncate">Jun 12, 2018 · 4 min read</span></p>    
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+    <footer class="page-footer black lighten-2 footer">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m12 l4">
+                    <h6 class="white-text">Discover Medium</h6>
+                    <p class="grey-text ">Welcome to a place where words matter. On Medium, smart voices and original ideas take center stage - with no ads in sight.</p>
+                </div>
+                <div class="col s12 m12 l4">
+                    <h6 class="white-text">Make Medium yours</h6>
+                    <p class="grey-text ">Follow all the topics you care about, and we’ll deliver the best stories for you to your homepage and inbox.</p>
+                </div>
+                <div class="col s12 m12 l4">
+                    <h6 class="white-text">Become a member</h6>
+                    <p class="grey-text ">Get unlimited access to the best stories on Medium — and support writers while you’re at it. Just $5/month.</p>
+                </div>
+            </div>
+            <hr>
+            <a href="index.html" class="white-text"><p class="center-align brand_footer"><img src="./images/Logo-white.png" class="responsive-img logo" ><span class=" logo_font hide-on-small-only">THE FRONT NEWS</span></p></a>
+        </div>
+    </footer>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+      
+
+        $(document).ready(function(){
+            $('.sidenav').sidenav();
+            $('.scrollspy').scrollSpy();
+            $('.materialboxed').materialbox();
+        });
+    </script>
+</body>
+</html>
