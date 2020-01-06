@@ -5,12 +5,13 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
-    <title>The Front News - Home</title>
+    <title>Your Interest - Element</title>
     <link rel="icon" href="./images/Logo-white.png">
     <style>
       .logo{
@@ -20,6 +21,10 @@
         vertical-align: text-bottom;
       }
             
+      a{
+        font-family: Open sans;
+      }
+
       .logo_font{
         margin-left: 15px;
         font-size: 2.1rem;
@@ -52,12 +57,19 @@
       .trending{
         margin-top: 2rem;
         font-weight: bold;
-        font-size: 1.6rem;
-        letter-spacing: 0.2rem;
+        font-size: 2rem;
+        letter-spacing: 0.1rem;
+        font-family: merriweather;
       }
 
       .subtitle_small_card{
-        font-size: 1rem;
+        font-size: 1.2rem;
+        font-family: merriweather;
+      }
+
+      .title{
+        font-family: merriweather;
+        font-size: 1.5rem;
       }
 
       .brand_footer{
@@ -74,6 +86,10 @@
           padding: 0px;
           margin-left: 5px;
       }
+
+      .margin_buttom{
+          padding-bottom: 5%;
+      }
     </style>
 
   </head>
@@ -82,7 +98,7 @@
     <nav>
       <div class="nav-wrapper white">
         <div class="container">
-          <a href="index.html" class="brand-logo black-text section scrollspy" id="top"><img src="./images/Logo-squircle.png" class="responsive-img logo" ><span class="hide-on-med-and-down logo_font">THE FRONT NEWS</span></a>
+          <a href="index.html" class="brand-logo black-text section scrollspy" id="top"><img src="./images/Logo-squircle.png" class="responsive-img logo" ><span class="hide-on-med-and-down logo_font">ELEMENT</span></a>
           <a href="#" class="sidenav-trigger" data-target="mobile-links">
               <i class="material-icons black-text">menu</i>
           </a>
@@ -108,237 +124,156 @@
         <a href="#top" class="btn-floating black white-text"><i class="material-icons">arrow_upward</i></a>
     </div>
 
-      <div class="row">
-        <div class="col s12 m5 l5 main_card">
+    <h5 class="trending grey-text text-darken-3 margin_bottom">Based on your interest </h5><br>
+
+    <div class="row">
+        <div class="col s12 m10 l10 main_card offset-m1 offset-l1">
           <div class="large_image_container">
-            <img src="https://miro.medium.com/max/2494/1*pubDnJk3CVf4Yc5IEvavXA.png" alt="" class="responsive-img materialboxed">
+            <img src="https://miro.medium.com/max/2813/1*RDfafLUAUSPp8ilXnchkTA.jpeg" alt="" class="responsive-img materialboxed">
           </div>
           <div>
-            <a href="#!">
-              <h5 class="title black-text">UI/UX case study: a step-by-step guide to the process of designing a pet diet app</h5>
-              <h6 class="subtitle grey-text text-darken-2">Your guide to creating a 🔥 design portfolio</h6>
+            <a href="Article3.html">
+              <h5 class="title black-text">Sketch & InVision workflow for developers</h5>
+              <h6 class="subtitle grey-text text-darken-2">Your Sketch guide.</h6>
             </a>
             
           </div>
           <div class="author-info_more_content">
-            <p><span class="author-name">Lan Belic </span><a href="#" class="right"><i class="material-icons bookmark_more_content">bookmark_border</i></a><br> <span class="text-info truncate">Jun 12, 2018 · 4 min read</span></p>    
-        </div>
-        </div>
-
-        <div class="col s12 m7 l7 side_card_list">
-          <div class="row side_card">
-            <div class="col s4 m4 l4">
-              <img src="https://miro.medium.com/max/2494/1*pubDnJk3CVf4Yc5IEvavXA.png" alt="" class="responsive-img side_card_img materialboxed">
-            </div>
-            <div class="col s8 m8 l8">
-              <div>
-                <a href="#!">
-                  <h6 class="title black-text">UI/UX case study: a step-by-step guide to the process of designing a pet diet app</h6>
-                </a>
-              </div>
-              <div class="author-info_more_content">
-                <p><span class="author-name">Lan Belic </span><a href="#" class="right"><i class="material-icons bookmark_more_content">bookmark_border</i></a><br> <span class="text-info truncate">Jun 12, 2018 · 4 min read</span></p>    
-            </div>
+            <p><a href="author3.html"><span class="author-name black-text">Lan Belic </span></a><a href="#!" class="right"><i class="material-icons bookmark_more_content">bookmark_border</i></a><br> <span class="text-info truncate">Jun 12, 2018 · 4 min read</span></p>    
           </div>
         </div>
+    </div>
 
-          <div class="row side_card">
-            <div class="col s4 m4 l4">
-              <img src="https://miro.medium.com/max/2494/1*pubDnJk3CVf4Yc5IEvavXA.png" alt="" class="responsive-img side_card_img materialboxed">
-            </div>
-            <div class="col s8 m8 l8">
-              <div>
-                <a href="#!">
-                  <h6 class="title black-text">UI/UX case study: a step-by-step guide to the process of designing a pet diet app</h6>
-                </a>
-              </div>
-              <div class="author-info_more_content">
-                <p><span class="author-name">Lan Belic </span><a href="#" class="right"><i class="material-icons bookmark_more_content">bookmark_border</i></a><br> <span class="text-info truncate">Jun 12, 2018 · 4 min read</span></p>    
-              </div>
-            </div>
+    
+      <div class="row side_card">
+        <div class="col s4 m4 l4">
+          <img src="https://miro.medium.com/max/2254/1*PgZGGwR8UkLPnog2NcyliA@2x.png" alt="" class="responsive-img side_card_img materialboxed">
+        </div>
+        <div class="col s8 m8 l8">
+          <div>
+            <a href="cardDetails.html">
+              <h6 class="title black-text">Good design rules in UX design</h6>
+              <h6 class="subtitle_small_card grey-text text-darken-2 hide-on-small-only">Must read.</h6>
+            </a>
           </div>
+          <div class="author-info_more_content">
+            <p><a href="author.html" ><span class="black-text">Lillian Xiao</span></a><a href="#" class="right"><i class="material-icons bookmark_more_content">bookmark_border</i></a><br> <span class="text-info truncate">Jun 12, 2018 · 4 min read</span></p>    
+        </div>
+      </div>
+    </div>
 
-          <div class="row side_card">
-            <div class="col s4 m4 l4 valign-wrapper">
-              <img src="https://miro.medium.com/max/2494/1*pubDnJk3CVf4Yc5IEvavXA.png" alt="" class="responsive-img side_card_img materialboxed">
-            </div>
-            <div class="col s8 m8 l8">
-              <div>
-                <a href="#!">
-                  <h6 class="title black-text">UI/UX case study: a step-by-step guide to the process of designing a pet diet app</h6>
-                </a>
-              </div>
-              <div class="author-info_more_content">
-                <p><span class="author-name">Lan Belic </span><a href="#" class="right"><i class="material-icons bookmark_more_content">bookmark_border</i></a><br> <span class="text-info truncate">Jun 12, 2018 · 4 min read</span></p>    
-              </div>
-            </div>
+
+      <div class="row side_card">
+        <div class="col s4 m4 l4">
+          <img src="https://miro.medium.com/max/5120/0*IhR38AaHuLKFo3n5" alt="" class="responsive-img side_card_img materialboxed">
+        </div>
+        <div class="col s8 m8 l8">
+          <div>
+            <a href="Article2.html">
+              <h6 class="title black-text">How I shifted from advertising to UX</h6>
+              <h6 class="subtitle_small_card grey-text text-darken-2 hide-on-small-only">My journey from art director to UX design manager.</h6>
+            </a>
+          </div>
+          <div class="author-info_more_content">
+            <p><a href="author2.html"><span class="author-name black-text">Rubens Cantuni</span></a><a href="#" class="right"><i class="material-icons bookmark_more_content">bookmark_border</i></a><br> <span class="text-info truncate">Jun 12, 2018 · 4 min read</span></p>    
           </div>
         </div>
       </div>
-      <hr>
 
-      <div class="div">
-        <h5 class="trending grey-text text-darken-3">Trending...🔥🔥🔥</h5>
-        <div class="row side_card">
-          <div class="col s4 m4 l4 valign-wrapper">
-            <img src="https://miro.medium.com/max/2494/1*pubDnJk3CVf4Yc5IEvavXA.png" alt="" class="responsive-img side_card_img materialboxed">
-          </div>
-          <div class="col s8 m8 l8">
-            <div>
-              <a href="#!">
-                <h6 class="title black-text">UI/UX case study: a step-by-step guide to the process of designing a pet diet app</h6>
-                <h6 class="subtitle_small_card grey-text text-darken-2 hide-on-small-only">Your guide to creating a design portfolio</h6>
-              </a>
-            </div>
-            <div class="author-info_more_content">
-              <p><span class="author-name">Lan Belic </span><a href="#" class="right"><i class="material-icons bookmark_more_content">bookmark_border</i></a><br> <span class="text-info truncate">Jun 12, 2018 · 4 min read</span></p>    
-            </div>
-          </div>
+
+      <div class="row side_card">
+        <div class="col s4 m4 l4 valign-wrapper">
+          <img src="https://miro.medium.com/max/2074/1*sNzLrlbZtOsGc8O55ddtNQ.png" alt="" class="responsive-img side_card_img materialboxed">
         </div>
-
-        <div class="row side_card">
-          <div class="col s4 m4 l4 valign-wrapper">
-            <img src="https://miro.medium.com/max/2494/1*pubDnJk3CVf4Yc5IEvavXA.png" alt="" class="responsive-img side_card_img materialboxed">
+        <div class="col s8 m8 l8">
+          <div>
+            <a href="Article4.html">
+              <h6 class="title black-text">Cosmic — UI/UX Case Study</h6>
+              <h6 class="subtitle_small_card grey-text text-darken-2 hide-on-small-only">In-depth design proposal for a slightly better app.</h6>
+            </a>
           </div>
-          <div class="col s8 m8 l8">
-            <div>
-              <a href="#!">
-                <h6 class="title black-text">UI/UX case study: a step-by-step guide to the process of designing a pet diet app</h6>
-                <h6 class="subtitle_small_card grey-text text-darken-2 hide-on-small-only">Your guide to creating a design portfolio</h6>
-              </a>
-            </div>
-            <div class="author-info_more_content">
-              <p><span class="author-name">Lan Belic </span><a href="#" class="right"><i class="material-icons bookmark_more_content">bookmark_border</i></a><br> <span class="text-info truncate">Jun 12, 2018 · 4 min read</span></p>    
-            </div>
-          </div>
-        </div>
-
-        <div class="row side_card">
-          <div class="col s4 m4 l4 valign-wrapper">
-            <img src="https://miro.medium.com/max/2494/1*pubDnJk3CVf4Yc5IEvavXA.png" alt="" class="responsive-img side_card_img materialboxed">
-          </div>
-          <div class="col s8 m8 l8">
-            <div>
-              <a href="#!">
-                <h6 class="title black-text">UI/UX case study: a step-by-step guide to the process of designing a pet diet app</h6>
-                <h6 class="subtitle_small_card grey-text text-darken-2 hide-on-small-only">Your guide to creating a design portfolio</h6>
-              </a>
-            </div>
-            <div class="author-info_more_content">
-              <p><span class="author-name">Lan Belic </span><a href="#" class="right"><i class="material-icons bookmark_more_content">bookmark_border</i></a><br> <span class="text-info truncate">Jun 12, 2018 · 4 min read</span></p>    
-            </div>
-          </div>
-        </div>
-
-        <div class="row side_card">
-          <div class="col s4 m4 l4 valign-wrapper">
-            <img src="https://miro.medium.com/max/2494/1*pubDnJk3CVf4Yc5IEvavXA.png" alt="" class="responsive-img side_card_img materialboxed">
-          </div>
-          <div class="col s8 m8 l8">
-            <div>
-              <a href="#!">
-                <h6 class="title black-text">UI/UX case study: a step-by-step guide to the process of designing a pet diet app</h6>
-                <h6 class="subtitle_small_card grey-text text-darken-2 hide-on-small-only">Your guide to creating a design portfolio</h6>
-              </a>
-            </div>
-            <div class="author-info_more_content">
-              <p><span class="author-name">Lan Belic </span><a href="#" class="right"><i class="material-icons bookmark_more_content">bookmark_border</i></a><br> <span class="text-info truncate">Jun 12, 2018 · 4 min read</span></p>    
-            </div>
+          <div class="author-info_more_content">
+            <p><a href="author3.html"><span class="author-name black-text">Lan Belic </span></a><a href="#" class="right"><i class="material-icons bookmark_more_content">bookmark_border</i></a><br> <span class="text-info truncate">Jun 12, 2018 · 4 min read</span></p>    
           </div>
         </div>
       </div>
-      <hr>
 
-      <div class="div">
-        <h5 class="trending grey-text text-darken-3">Based on your interest</h5>
-        <div class="row side_card">
-          <div class="col s4 m4 l4 valign-wrapper">
-            <img src="https://miro.medium.com/max/2494/1*pubDnJk3CVf4Yc5IEvavXA.png" alt="" class="responsive-img side_card_img materialboxed">
+      <div class="row side_card">
+        <div class="col s4 m4 l4">
+          <img src="https://miro.medium.com/max/2254/1*PgZGGwR8UkLPnog2NcyliA@2x.png" alt="" class="responsive-img side_card_img materialboxed">
+        </div>
+        <div class="col s8 m8 l8">
+          <div>
+            <a href="cardDetails.html">
+              <h6 class="title black-text">Good design rules in UX design</h6>
+              <h6 class="subtitle_small_card grey-text text-darken-2 hide-on-small-only">Must read.</h6>
+            </a>
           </div>
-          <div class="col s8 m8 l8">
-            <div>
-              <a href="#!">
-                <h6 class="title black-text">UI/UX case study: a step-by-step guide to the process of designing a pet diet app</h6>
-                <h6 class="subtitle_small_card grey-text text-darken-2 hide-on-small-only">Your guide to creating a design portfolio</h6>
-              </a>
-            </div>
-            <div class="author-info_more_content">
-              <p><span class="author-name">Lan Belic </span><a href="#" class="right"><i class="material-icons bookmark_more_content">bookmark_border</i></a><br> <span class="text-info truncate">Jun 12, 2018 · 4 min read</span></p>    
-            </div>
+          <div class="author-info_more_content">
+            <p><a href="author.html" ><span class="black-text">Lillian Xiao</span></a><a href="#" class="right"><i class="material-icons bookmark_more_content">bookmark_border</i></a><br> <span class="text-info truncate">Jun 12, 2018 · 4 min read</span></p>    
+        </div>
+      </div>
+    </div>
+
+
+      <div class="row side_card">
+        <div class="col s4 m4 l4">
+          <img src="https://miro.medium.com/max/5120/0*IhR38AaHuLKFo3n5" alt="" class="responsive-img side_card_img materialboxed">
+        </div>
+        <div class="col s8 m8 l8">
+          <div>
+            <a href="Article2.html">
+              <h6 class="title black-text">How I shifted from advertising to UX</h6>
+              <h6 class="subtitle_small_card grey-text text-darken-2 hide-on-small-only">My journey from art director to UX design manager.</h6>
+            </a>
+          </div>
+          <div class="author-info_more_content">
+            <p><a href="author2.html"><span class="author-name black-text">Rubens Cantuni</span></a><a href="#" class="right"><i class="material-icons bookmark_more_content">bookmark_border</i></a><br> <span class="text-info truncate">Jun 12, 2018 · 4 min read</span></p>    
           </div>
         </div>
+      </div>
 
-        <div class="row side_card">
-          <div class="col s4 m4 l4 valign-wrapper">
-            <img src="https://miro.medium.com/max/2494/1*pubDnJk3CVf4Yc5IEvavXA.png" alt="" class="responsive-img side_card_img materialboxed">
+
+      <div class="row side_card">
+        <div class="col s4 m4 l4 valign-wrapper">
+          <img src="https://miro.medium.com/max/2074/1*sNzLrlbZtOsGc8O55ddtNQ.png" alt="" class="responsive-img side_card_img materialboxed">
+        </div>
+        <div class="col s8 m8 l8">
+          <div>
+            <a href="Article4.html">
+              <h6 class="title black-text">Cosmic — UI/UX Case Study</h6>
+              <h6 class="subtitle_small_card grey-text text-darken-2 hide-on-small-only">In-depth design proposal for a slightly better app.</h6>
+            </a>
           </div>
-          <div class="col s8 m8 l8">
-            <div>
-              <a href="#!">
-                <h6 class="title black-text">UI/UX case study: a step-by-step guide to the process of designing a pet diet app</h6>
-                <h6 class="subtitle_small_card grey-text text-darken-2 hide-on-small-only">Your guide to creating a design portfolio</h6>
-              </a>
-            </div>
-            <div class="author-info_more_content">
-              <p><span class="author-name">Lan Belic </span><a href="#" class="right"><i class="material-icons bookmark_more_content">bookmark_border</i></a><br> <span class="text-info truncate">Jun 12, 2018 · 4 min read</span></p>    
-            </div>
+          <div class="author-info_more_content">
+            <p><a href="author3.html"><span class="author-name black-text">Lan Belic </span></a><a href="#" class="right"><i class="material-icons bookmark_more_content">bookmark_border</i></a><br> <span class="text-info truncate">Jun 12, 2018 · 4 min read</span></p>    
           </div>
         </div>
+      </div>
 
-        <div class="row side_card">
-          <div class="col s4 m4 l4 valign-wrapper">
-            <img src="https://miro.medium.com/max/2494/1*pubDnJk3CVf4Yc5IEvavXA.png" alt="" class="responsive-img side_card_img materialboxed">
-          </div>
-          <div class="col s8 m8 l8">
-            <div>
-              <a href="#!">
-                <h6 class="title black-text">UI/UX case study: a step-by-step guide to the process of designing a pet diet app</h6>
-                <h6 class="subtitle_small_card grey-text text-darken-2 hide-on-small-only">Your guide to creating a design portfolio</h6>
-              </a>
-            </div>
-            <div class="author-info_more_content">
-              <p><span class="author-name">Lan Belic </span><a href="#" class="right"><i class="material-icons bookmark_more_content">bookmark_border</i></a><br> <span class="text-info truncate">Jun 12, 2018 · 4 min read</span></p>    
-            </div>
-          </div>
-        </div>
-
-        <div class="row side_card">
-          <div class="col s4 m4 l4 valign-wrapper">
-            <img src="https://miro.medium.com/max/2494/1*pubDnJk3CVf4Yc5IEvavXA.png" alt="" class="responsive-img side_card_img materialboxed">
-          </div>
-          <div class="col s8 m8 l8">
-            <div>
-              <a href="#!">
-                <h6 class="title black-text">UI/UX case study: a step-by-step guide to the process of designing a pet diet app</h6>
-                <h6 class="subtitle_small_card grey-text text-darken-2 hide-on-small-only">Your guide to creating a design portfolio</h6>
-              </a>
-            </div>
-            <div class="author-info_more_content">
-              <p><span class="author-name">Lan Belic </span><a href="#" class="right"><i class="material-icons bookmark_more_content">bookmark_border</i></a><br> <span class="text-info truncate">Jun 12, 2018 · 4 min read</span></p>    
-            </div>
-          </div>
-        </div>
-      </div>       
+      
+    </div>
+     
     </div>
 
     <footer class="page-footer black lighten-2 footer">
       <div class="container">
           <div class="row">
               <div class="col s12 m12 l4">
-                  <h6 class="white-text">Discover Medium</h6>
-                  <p class="grey-text ">Welcome to a place where words matter. On Medium, smart voices and original ideas take center stage - with no ads in sight.</p>
+                  <h6 class="white-text">Discover Element</h6>
+                  <p class="grey-text ">Welcome to a place where words matter. On Element, smart voices and original ideas take center stage - with no ads in sight.</p>
               </div>
               <div class="col s12 m12 l4">
-                  <h6 class="white-text">Make Medium yours</h6>
+                  <h6 class="white-text">Make Element yours</h6>
                   <p class="grey-text ">Follow all the topics you care about, and we’ll deliver the best stories for you to your homepage and inbox.</p>
               </div>
               <div class="col s12 m12 l4">
                   <h6 class="white-text">Become a member</h6>
-                  <p class="grey-text ">Get unlimited access to the best stories on Medium — and support writers while you’re at it. Just $5/month.</p>
+                  <p class="grey-text ">Get unlimited access to the best stories on Element— and support writers while you’re at it. Just $5/month.</p>
               </div>
           </div>
           <hr>
-          <a href="index.html" class="white-text"><p class="center-align brand_footer"><img src="./images/Logo-white.png" class="responsive-img logo" ><span class=" logo_font hide-on-small-only">THE FRONT NEWS</span></p></a>
+          <a href="index.html" class="white-text"><p class="center-align brand_footer"><img src="./images/Logo-white.png" class="responsive-img logo" ><span class=" logo_font hide-on-small-only">ELEMENT</span></p></a>
       </div>
   </footer>
 
